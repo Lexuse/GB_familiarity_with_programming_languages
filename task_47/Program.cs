@@ -7,7 +7,7 @@ Console.Clear();
 
 int row = GetUserNumber("введите желаемое количество строк ", "ошибка ввода! ");
 int collum = GetUserNumber("введите желаемое количество столбцов ", "ошибка ввода! ");
-int minValue = GetUserNumber("Введите минимаоьное число для генерации ", "ошибка ввода!");
+int minValue = GetUserNumber("Введите минимальное число для генерации ", "ошибка ввода!");
 int maxValue = GetUserNumber("Введите максимальное число для  генерации ", "ошибка ввода!");
 
 double[,] array = FillArray(row, collum, minValue, maxValue);
