@@ -22,11 +22,11 @@ void Cube (int userInputNumber)
 {
     int iterator = 1;
     while (iterator <= userInputNumber)
-        {
-            output = Convert.ToInt32(Math.Pow(iterator, 3));
-            Console.Write($"{output}, ");
-            iterator++;
-        }
+    {
+        output = Convert.ToInt32(Math.Pow(iterator, 3));
+        Console.Write($"{output}, ");
+        iterator++;
+    }
 }
 
 
