@@ -2,7 +2,7 @@
 
 
 
-int[,] array = GenerateArray(4, 4, 1, 10);
+int[,] array = new int[4,4];
 
 array = FillArray(array);
 
@@ -11,18 +11,6 @@ PrintArray(array);
 
 
 ///////////////////////////////////////////////////////////////
-int[,] GenerateArray(int row, int col, int minValue, int maxValue)
-{
-    int[,] arr = new int[row, col];
-    for (int i = 0; i < arr.GetLength(0); i++)
-    {
-        for (int j = 0; j < arr.GetLength(1); j++)
-        {
-            arr[i, j] = new Random().Next(minValue, maxValue);
-        }
-    }
-    return arr;
-}
 
 int[,] FillArray(int[,] arr)
 {
